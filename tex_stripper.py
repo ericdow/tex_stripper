@@ -18,8 +18,8 @@ if not f[-4:] == '.tex':
 keys = ['\section','\sub','\label','\chapter']
 
 # things that should be removed that have partners
-start_keys = [r'\begin{figure','\[',r'\begin{equation','$$',r'\begin{table',r'\begin{itemize']
-end_keys = ['\end{figure','\]','\end{equation','$$','\end{table',r'\end{itemize']
+start_keys = [r'\begin{figure','\[',r'\begin{equation','$$',r'\begin{table',r'\begin{itemize',r'\begin{eqn']
+end_keys = ['\end{figure','\]','\end{equation','$$','\end{table',r'\end{itemize',r'\end{eqn']
 
 # lines with line_flag = 0 will be written
 # lines with line_flag = 1 will not
